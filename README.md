@@ -12,7 +12,7 @@ The algorithm takes in the following values:
 - Breaches - The number of password breaches for this account.
 - Security Level - A number which determines the length of your returned password
 
-Afterwards, the algorithm will hash these values. That initial hash will be fed into another function - [pAlgorithm](https://github.com/thisLexic/palgorithm/blob/4709a85e3a159e5ecf35c3436ded1d09bdd42290/palgorithm.py#L54) - which will be uniquely defined by the developer using the algorithm. This function will return the final password for an account.
+Afterwards, the algorithm will hash these values. That initial hash will be fed into another function - [pAlgorithm](https://github.com/thisLexic/palgorithm/blob/4709a85e3a159e5ecf35c3436ded1d09bdd42290/palgorithm.py#L54) - which will be uniquely defined by the developer. This function will return the final password for an account.
 
 
 ## Is it Secure?
